@@ -1,0 +1,17 @@
+.hero-container {
+    display: flex;
+    height: 864px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.hero-container img {
+    width: 516px;
+    height: 540px;
+}
+
+.hero-right {
+    flex-direction: row-reverse;
+}

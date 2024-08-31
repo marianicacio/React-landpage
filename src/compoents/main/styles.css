@@ -1,6 +1,20 @@
 main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    width: 516px;
+    height: 540px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 112px;
+    gap: 80px;
 }
 
 h1 {
