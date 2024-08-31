@@ -1,6 +1,6 @@
 import './styles.css'
-import Logo from '../../imgs/Logo.svg'
-import Arrow from '../../imgs/Arrow.svg'
+import Logo from '../../../src/assets/imgs/Logo.svg'
+import Arrow from '../../../src/assets/imgs/Arrow.svg'
 
 export default function Header() {
     return (

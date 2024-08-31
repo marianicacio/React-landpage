@@ -120,8 +120,11 @@ handleMonth(8)
 
 function handleDev(cargo) {
     switch (cargo) {
-    case 'Iniciante' : return console.log('Vai estudar')
-    case 'Intermediario' : return console.log('Mais ou menos')
-    case 'Avançado' : return console.log('topzera')
+    case 'iniciante' : return console.log('Vai estudar')
+    case 'intermediario' : return console.log('Vai estudar o foco das vagas!')
+    case 'avancado' : return console.log('Vai aprimorar o conhecimento!')
+    default: return console.log('Cargo inexistente')
     }
 }
+
+handleDev('a')
