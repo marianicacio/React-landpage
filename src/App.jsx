@@ -7,11 +7,13 @@ import Card from "./compoents/card";
 import Box from "./assets/imgs/box.svg"
 import "./App.css";
 import Count from "./class/hooks/useState/count";
+import Accordion from "./class/hooks/useState/accordion";
+import { useState } from "react";
 
 
 
 export default function App() {
-  return (
-   <Count/>
-  )
+      return (
+        <Accordion/>
+      )
 }
