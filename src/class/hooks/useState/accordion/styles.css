@@ -1,10 +1,10 @@
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     background-color: #e0daf7;
-}
+} */
 
 .accordion-container {
     width: 300px;
