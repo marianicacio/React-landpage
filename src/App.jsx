@@ -11,11 +11,12 @@ import Accordion from "./class/hooks/useState/accordion";
 import { useState } from "react";
 import Example from "./class/hooks/useEffect/example";
 import CountEffect from "./class/hooks/useHooks/countEffect";
+import PokemonApi from "./class/hooks/useHooks/pokemonApi";
 
 
 
 export default function App() {
       return (
-        <CountEffect/>
+        <PokemonApi/>
       )
 }
